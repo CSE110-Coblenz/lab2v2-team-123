@@ -1,1 +1,2 @@
+printMusic(music);
 printGuests(guestlist);
