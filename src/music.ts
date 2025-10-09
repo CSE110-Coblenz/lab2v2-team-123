@@ -1,10 +1,13 @@
+import { boldConsoleText } from './animation.ts';
+
 let music: string[] = ["pop", "rap", "country"];
 
-function printMusic(x: string[]) {
+export function printMusic(x: string[]) {
     for (let i: number = 0; i < x.length; i++) {
-        console.log(x[i]);
+        let bold: string = boldConsoleText(x[i]);
+        console.log(bold);
     }
 }
 
-const message2 = printMusic(music);
+//const message2 = printMusic(music);
 //
