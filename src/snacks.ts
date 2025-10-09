@@ -8,5 +8,5 @@ function printSnacks(snacks: string[]) {
     }
 }
 
-let snacks: string[] = ["Chips", "Cookies", "Cupcakes", "Crackers", "Granola", "Soda", "Yogurt"] 
+export let snacks: string[] = ["Chips", "Cookies", "Cupcakes", "Crackers", "Granola", "Soda", "Yogurt"] 
 printSnacks(snacks);
