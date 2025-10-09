@@ -7,4 +7,4 @@ function printSnacks(x: string[]) {
 }
 
 const message = printSnacks(snacks);
-// why
+// why is this not working
