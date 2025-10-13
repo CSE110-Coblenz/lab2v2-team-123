@@ -9,5 +9,6 @@ jobs:
         with:
           node-version: '20'
       - run: npm ci
+      - run: npm install typescript
       - run: npx tsc --noEmit
       - run: npm test
