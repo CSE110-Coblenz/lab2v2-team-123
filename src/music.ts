@@ -1,4 +1,4 @@
-import { boldConsoleText } from './animation.ts';
+import { boldConsoleText } from './animation';
 
 let music: string[] = ["pop", "rap", "country"];
 

@@ -1,4 +1,4 @@
-import { printMusic } from './music.ts';
+import { printMusic } from './music';
 //import { printGuests } from './guests.ts';
 let music2: string[] = ["rap"];
 printMusic(music2);

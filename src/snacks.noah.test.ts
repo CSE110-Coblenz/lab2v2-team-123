@@ -1,15 +1,15 @@
 import { describe, it, expect } from "vitest";
-import { snacks1 } from "./snacks";
+import { snacks } from "./snacks";
 
-import { guestlist } from "./guests.ts";
+import { guestlist } from "./guests";
 
 describe("snacks", () => {
   it("should have at least 3 items", () => {
-    expect(snacks1.length).toBeGreaterThanOrEqual(3);
+    expect(snacks.length).toBeGreaterThanOrEqual(3);
   });
 
   it("should include 'Chips'", () => {
-    expect(snacks1).toContain("Chips");
+    expect(snacks).toContain("Chips");
   });
 });
 
