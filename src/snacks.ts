@@ -1,4 +1,4 @@
-import { boldConsoleText } from './animation.ts';
+import { boldConsoleText } from './animation';
 
 
 function printSnacks(snacks: string[]) {
